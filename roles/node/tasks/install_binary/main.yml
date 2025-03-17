@@ -1,0 +1,6 @@
+---
+- name: Include build_rpc_binary task
+  ansible.builtin.include_tasks: build_rpc_binary.yml
+
+- name: Include extract_core_binary task
+  ansible.builtin.include_tasks: extract_core_binary.yml
