@@ -1,0 +1,7 @@
+---
+node_ufw_rules:
+  - port: "{{ stellar.fullnode.ports.captive_core_p2p_port }}"
+    proto: tcp
+    rule: allow
+    from: any
+    comment: captive_core_p2p_port

@@ -1,0 +1,10 @@
+---
+# maintains file name, binary names, and anything which is not a directory or path
+
+# config file names
+node_config_file_name: config.toml
+node_captive_core_config_file_name: captive-core.cfg
+
+# binary names
+node_service_default_binary_name: stellar-rpc
+node_captive_core_default_binary_name: stellar-core
