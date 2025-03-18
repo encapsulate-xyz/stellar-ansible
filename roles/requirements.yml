@@ -1,4 +1,4 @@
 ---
 roles:
-  - src: https://github.com/kowshikvajrala/ansible-rustup.git
-    name: kowshikvajrala.ansible-rustup
+  - src: https://github.com/encapsulate-xyz/ansible-rustup.git
+    name: encapsulate.ansible-rustup
