@@ -1,3 +1,4 @@
 ---
 roles:
-  - name: hurricanehrndz.rustup
+  - src: https://github.com/kowshikvajrala/ansible-rustup.git
+    name: kowshikvajrala.ansible-rustup

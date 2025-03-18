@@ -22,7 +22,8 @@ go:
   module111: "on"
 
 rust:
-  root: /root/.cargo
+  root: /opt
+  path: /opt/cargo
 
 stellar:
   fullnode:
