@@ -1,4 +1,24 @@
 ---
+- name: Install Dependecies
+  ansible.builtin.apt:
+    name: "{{ item }}"
+    state: present
+    update_cache: true
+  loop:
+      - pkg-config
+      - autoconf
+      - automake
+      - libtool
+      - bison
+      - flex
+      - libpq-dev
+      - parallel
+      - sed
+      - perl
+      - libc++-dev
+      - libc++1
+      - libc++abi1
+
 - name: Create Docker container and copy binary
   vars:
     container_name: stellar_core
