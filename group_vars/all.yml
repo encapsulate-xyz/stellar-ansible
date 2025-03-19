@@ -21,6 +21,10 @@ go:
   path: "{{ tmp_dir }}/go"
   module111: "on"
 
+rust:
+  root: /opt
+  path: /opt/cargo
+
 stellar:
   fullnode:
     source_url: https://github.com/stellar/stellar-rpc

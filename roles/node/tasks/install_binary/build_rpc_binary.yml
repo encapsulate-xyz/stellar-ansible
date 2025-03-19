@@ -17,7 +17,7 @@
     chdir: "{{ tmp_dir }}/{{ project }}"
     target: build-stellar-rpc
   environment:
-    PATH: "{{ go.root }}/bin:{{ ansible_env.PATH }}"
+    PATH: "{{ rust.root }}/bin:{{ go.root }}/bin:{{ ansible_env.PATH }}"
     GOROOT: "{{ go.root }}"
     GOPATH: "{{ go.path }}"
     GO111MODULE: "{{ go.module111 }}"
