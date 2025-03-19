@@ -5,3 +5,9 @@ node_ufw_rules:
     rule: allow
     from: any
     comment: captive_core_p2p_port
+
+  - port: "{{ stellar.fullnode.ports.listen_port }}"
+    proto: tcp
+    rule: allow
+    from: amplifier.axelar.mainnet.encapsulate.xyz
+    comment: listen_port
