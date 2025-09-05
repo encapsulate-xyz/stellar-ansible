@@ -2,10 +2,10 @@
 # maintains versions and can overwrite all.yml
 stellar:
   fullnode:
-    version: v22.1.2
+    version: v23.0.2
     go:
       version: 1.23.1
     rust:
       version: 1.85.0
     core:
-      version: 22.1.0-2194.0241e79f7.jammy
+      version: 23.0.1-2670.050eacf11.jammy
