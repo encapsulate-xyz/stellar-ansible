@@ -1,0 +1,5 @@
+# This file contains ignores rule violations for ansible-lint
+inventory/testnet.yml schema[inventory]
+roles/node/meta/main.yml syntax-check[specific]
+roles/node/tasks/install_binary/extract_core_binary.yml var-naming[no-role-prefix]
+roles/node/tasks/install_binary/extract_core_binary.yml yaml[indentation]
